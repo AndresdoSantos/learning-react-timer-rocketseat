@@ -33,7 +33,7 @@ const BaseInput = styled.input`
   height: 2.5rem;
   padding: 0 0.5rem;
   border: 0;
-  border-bottom: ${(props) => props.theme['gray-500']};
+  border-bottom: 2px solid ${(props) => props.theme['gray-500']};
 
   font-weight: inherit;
   font-size: inherit;
